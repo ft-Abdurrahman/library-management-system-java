@@ -30,6 +30,29 @@ Add the MySQL Connector/J JAR to the project Libraries.
 
 Create the lms_db database and tables using the provided SQL script.
 
+
+
+
+
+Folder Structure Must look like this:
+src
+ └── lms
+      ├── DBConnection.java
+      ├── PasswordUtil.java
+      ├── AuthDAO.java
+      ├── LoginFrame.java
+      ├── SignupFrame.java
+      ├── ForgotPasswordFrame.java
+      ├── AdminMainFrame.java
+      ├── BookDAO.java
+      ├── BookManagementFrame.java
+      ├── MemberDAO.java
+      ├── MemberManagementFrame.java
+      ├── IssueDAO.java
+      └── IssueReturnFrame.java
+
+
 Update the database credentials in DBConnection.java.
 
 Run the application by executing the LoginFrame class.
+
